@@ -1,12 +1,5 @@
 public class UserInput {
 
-    
-
-    public static void main() {
-
-        
-    }
-
     public boolean isKeyClicked() {
         return true;
     }
