@@ -1,11 +1,11 @@
-public class Ghost {
+public class Ghost extends Entity {
     int xPos;
     int yPos;
     int direction;
 
     public Ghost() {
 
-        
+
     }
 
 
