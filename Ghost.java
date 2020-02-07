@@ -1,5 +1,7 @@
 public class Ghost {
-
+    int xPos;
+    int yPos;
+    int direction;
 
     public Ghost() {
 
