@@ -3,14 +3,10 @@ public class Ghost extends Entity {
     int yPos;
     int direction;
 
-    public Ghost() {
-
-
+    public Ghost(int x, int y, int d) {
+        xPos = x;
+        yPos = y;
+        direction = d;
     }
 
-
-    public static void main(String[] args) {
-
-        
-    }
 }
