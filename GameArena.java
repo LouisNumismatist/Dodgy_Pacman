@@ -78,11 +78,6 @@ public class GameArena extends JFrame implements Runnable, KeyListener
 			if (!this.exiting)
 			{
 				g.clearRect(0,0, arenaWidth, arenaHeight);
-				for(Ball b : balls)
-				{
-					g.setColor(this.getColourFromString(b.getColour()));
-					g.fillOval((int)(b.getXPosition() - b.getSize()/2), (int)(b.getYPosition() - b.getSize()/2), (int)b.getSize(), (int)b.getSize());
-				}
 
 				for(Rectangle b : rectangles)
 				{
@@ -235,20 +230,11 @@ public class GameArena extends JFrame implements Runnable, KeyListener
 		return down;
 	}
 
-	public boolean leftPressed()
-	{
-		return left;
-	}
+	public boolean leftPressed() { return left; }
 
-	public boolean rightPressed()
-	{
-		return right;
-	}
+	public boolean rightPressed() { return right; }
 
-	public boolean spacePressed()
-	{
-		return space;
-	}
+	public boolean spacePressed() { return space; }
 
 	
 }
