@@ -53,10 +53,7 @@ public class GameArena extends JFrame implements Runnable, KeyListener
 		super.setSize(arenaWidth + this.getInsets().left + this.getInsets().right, arenaHeight + this.getInsets().top + this.getInsets().bottom);
 	}	
 
-	public void exit()
-	{
-		this.exiting = true;
-	}
+	public void exit() { this.exiting = true; }
 
 	public void paint (Graphics gr)
 	{
