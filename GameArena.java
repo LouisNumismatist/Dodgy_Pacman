@@ -81,8 +81,8 @@ public class GameArena extends JFrame implements Runnable, KeyListener
 
 				for(Rectangle b : rectangles)
 				{
-					g.setColor(this.getColourFromString(b.getColour()));
-					g.fillRect((int)b.getXPosition(), (int)b.getYPosition(), (int)b.getWidth(), (int)b.getHeight());
+					g.setColor(this.getColourFromString(b.colour));
+					g.fillRect(b.xPos, b.yPos, b.width, b.height);
 				}
 			}
 					
