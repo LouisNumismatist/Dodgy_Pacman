@@ -23,7 +23,7 @@ public class GameArena extends JFrame implements Runnable, KeyListener
 
 	public GameArena(int width, int height)
 	{
-		this.setTitle("Let's Play!");
+		this.setTitle("Play Dodgy Pacman!");
 		this.setSize(width, height);
 		this.setResizable(false);
 		this.setBackground(Color.BLACK);
@@ -206,29 +206,15 @@ public class GameArena extends JFrame implements Runnable, KeyListener
 			space = false;		
 	}
 
- 	public void keyTyped(KeyEvent e) 
-	{
-	}
+ 	public void keyTyped(KeyEvent e) { }
 
-	public int getArenaWidth()
-	{
-		return arenaWidth;
-	}
+	public int getArenaWidth() { return arenaWidth; }
 
-	public int getArenaHeight()
-	{
-		return arenaHeight;
-	}
+	public int getArenaHeight() { return arenaHeight; }
 
-	public boolean upPressed()
-	{
-		return up;
-	}
+	public boolean upPressed() { return up; }
 
-	public boolean downPressed()
-	{
-		return down;
-	}
+	public boolean downPressed() { return down; }
 
 	public boolean leftPressed() { return left; }
 
