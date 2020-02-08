@@ -1,26 +1,26 @@
 public class Rectangle 
 {
-	private double xPosition;
-	private double yPosition;
-	private double width;
-	private double height;
-	private String colour;
+	int xPos;
+	int yPos;
+	int width;
+	int height;
+	String colour;
 
-	public Rectangle(double x, double y, double w, double h, String col) {
-		xPosition = x;
-		yPosition = y;
+	public Rectangle(int x, int y, int w, int h, String col) {
+		xPos = x;
+		yPos = y;
 		width = w;
 		height = h;
 		colour = col;
 	}	
 	
-	public double getXPosition() { return xPosition; }
+	/*public double getXPosition() { return xPos; }
 
-	public double getYPosition() { return yPosition; }
+	public double getYPosition() { return yPos; }
 
-	public void setXPosition(double x) { this.xPosition = x; }
+	public void setXPosition(double x) { this.xPos = x; }
 
-	public void setYPosition(double y) { this.yPosition = y; }
+	public void setYPosition(double y) { this.yPos = y; }
 
 	public double getWidth() { return width; }
 
@@ -32,5 +32,5 @@ public class Rectangle
 
 	public String getColour() { return colour; }
 
-	public void setColour(String c) { colour = c; }
+	public void setColour(String c) { colour = c; }*/
 }
