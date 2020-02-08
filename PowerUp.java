@@ -1,4 +1,4 @@
-public class PowerUp extends Entity {
+public class PowerUp extends Ball {
 
-    
+
 }

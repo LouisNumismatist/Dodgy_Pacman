@@ -1,6 +1,4 @@
-public class Entity {
-    int xPos;
-    int yPos;
+public class Entity extends Ball {
     int direction;
     int speed;
     

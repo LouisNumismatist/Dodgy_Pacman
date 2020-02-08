@@ -1,4 +1,4 @@
-public class Pellet extends Entity {
+public class Pellet extends Ball {
 
     
 }
